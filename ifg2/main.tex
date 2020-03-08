@@ -1,0 +1,51 @@
+\documentclass[10pt]{beamer}
+\mode<presentation>
+
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenx}
+\usepackage{graphicx}
+\usepackage{hyphenat}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[hyphenbreaks]{breakurl}
+
+\usepackage{natbib}
+
+\usetheme{ifg2}
+
+\begin{document}
+
+\title[11ª Semana da Licenciatura em Matemática]{Título da Comunicação}
+\subtitle{Subtítulo da comunicação}
+\date{\today}
+\author[Dino Sauro]{Prof. Dino da Silva Sauro\\\scriptsize{
+    \href{mailto:dino.sauro@ifg.edu.br}{dino.sauro@ifg.edu.br}\\
+    \href{URL}{dinosilvasauro.site}	
+}}
+\institute[\href{mailto:dino.sauro@ifg.edu.br}{dino.sauro@ifg.edu.br}]{11ª Semana da Licenciatura em Matemática\\Campus de Goiânia}
+\logo{\includegraphics[width=0.06\linewidth,clip,trim=2.5cm 5.4cm 2.5cm 5.4cm]{verticalcolorida.jpg}}
+
+\frame{\titlepage}
+
+\frame[allowframebreaks]{
+	\frametitle{Conteúdo}
+	\tableofcontents
+}
+
+\begin{frame}{Meu Titulo}
+\framesubtitle{Meu subtítulo}
+	Meu conteúdo
+\end{frame}
+
+\section{Referências}
+
+\frame[allowframebreaks]{
+	\frametitle{Referências}	
+	\bibliographystyle{plain}
+	\bibliography{/home/supervedovatto/Documents/Artigos/bibliografiageral}
+}
+
+\end{document}

@@ -1,0 +1,74 @@
+\RequirePackage{datetime, textpos, xcolor}
+\ProcessOptions
+\yyyymmdddate \renewcommand{\dateseparator}{.}
+\usetheme{Madrid}% save ampersand for other uses:
+\useinnertheme{circles}
+
+\definecolor{verde}{RGB}{050,160,65}
+\definecolor{vermelho}{RGB}{200,25,30}
+%Definição das cores do ifg
+\definecolor{verde-muitoclaro}{RGB}{177,232,186}
+\definecolor{verde-claro}{RGB}{72,210,93}
+\definecolor{verde-padrao}{RGB}{050,160,65}
+\definecolor{verde-escuro}{RGB}{31,106,43}
+\definecolor{verde-muitoescuro}{RGB}{16,53,22}
+\definecolor{vermelho}{RGB}{200,25,30}
+\definecolor{azul-muitoclaro}{RGB}{212,170,232}
+\definecolor{azul-claro}{RGB}{170,85,209}
+\definecolor{azul-padrao}{RGB}{127,0,186}
+\definecolor{azul-escuro}{RGB}{85,0,124}
+\definecolor{azul-muitoescuro}{RGB}{42,0,62}
+
+\usefonttheme{serif,professionalfonts}
+
+\setbeamercolor{background canvas}{parent=normal text}
+\setbeamercolor{background}{parent=background canvas}
+\setbeamercolor{alerted text}{fg = vermelho,bg=white}
+\setbeamercolor{example text}{fg = azul-padrao,bg=white}
+\setbeamercolor{palette primary}{bg = verde-muitoescuro,fg=white}
+\setbeamercolor{palette secondary}{bg = verde-escuro,fg=white}
+\setbeamercolor{palette tertiary}{bg = verde-padrao,fg=white}
+\setbeamercolor{palette quaternary}{bg = verde-claro,fg=white}
+\setbeamercolor{frametitle}{bg = verde-escuro}
+\setbeamercolor{framesubtitle}{bg = verde-padrao}
+\setbeamercolor{item}{fg = verde-padrao}
+\setbeamercolor{block title example}{bg = azul-padrao}
+\setbeamercolor{block body example}{bg = azul-muitoclaro}
+\setbeamercolor{block title}{bg = verde-padrao}
+\setbeamercolor{block body}{bg=verde-muitoclaro}
+\setbeamercolor{tableofcontend}{fg=verde-muitoescuro}
+\setbeamercolor{section in toc}{fg =vermelho}
+\setbeamercolor{description item}{fg = verde-escuro}
+\setbeamercolor{bibliography entry location}{fg=verde-escuro}
+\setbeamercolor{bibliography entry author}{fg=verde-muitoescuro}
+\setbeamercolor{bibliography entry note}{fg=verde-muitoclaro}
+\setbeamercolor{bibliography entry title}{fg=verde-claro}
+\setbeamercolor{bibliography entry item}{fg=verde-padrao}
+\setbeamercolor{lower separation line foot}{}
+\setbeamerfont{date in head/foot}{family=\sffamily}
+\setbeamerfont{author in head/foot}{family=\sffamily}
+\setbeamerfont{institute in head/foot}{family=\sffamily}
+\setbeamerfont{page number in head/foot}{family=\sffamily}
+\setbeamerfont{title in head/foot}{family=\sffamily}
+\setbeamerfont{frametitle}{family=\sffamily}
+\setbeamerfont{framesubtitle}{family=\sffamily}
+\setbeamerfont{block title}{family=\sffamily}
+\setbeamerfont{block example title}{parent=block title}
+\setbeamerfont{description item}{series=\bfseries}
+
+\setbeamercovered{transparent=20}
+\setbeamertemplate{enumerate subitem}{\insertenumlabel.\insertsubenumlabel}
+\beamertemplatenavigationsymbolsempty
+\graphicspath{{figuras/}}
+\hypersetup{pdfkeywords={11ª SeMaT},pdftitle={11ª Semana da Licenciatura em Matemática}}
+
+\AtBeginSection[]{
+	\begin{frame}
+	\vfill
+	\centering
+	\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+		\usebeamerfont{title}\insertsectionhead\par%
+	\end{beamercolorbox}
+	\vfill
+\end{frame}
+}
