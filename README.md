@@ -1,6 +1,7 @@
 # Temas IFG e Semat
 
-Estes são dois temas simples que elaborei para a Semat e para uso por parte de alunos, professores e outros interessados.
+Estes são três temas simples que elaborei para a Semat e para uso por parte de alunos, professores e outros interessados.
+O tema ifg2 e é baseado no tema Madrid e os demais são baseados na classe BeamerPorts à seguir:
 
 # BeamerPorts
 ## PowerPoint themes for Beamer
