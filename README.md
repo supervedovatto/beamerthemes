@@ -1,3 +1,7 @@
+# Temas IFG e Semat
+
+Estes são dois temas simples que elaborei para a Semat e para uso por parte de alunos, professores e outros interessados.
+
 # BeamerPorts
 ## PowerPoint themes for Beamer
 
